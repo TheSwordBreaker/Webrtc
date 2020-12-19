@@ -37,17 +37,17 @@ const iceServers = {
       credential: 'JZEOEt2V3Qb0y27GRntt2u2PAYA=',
       username: '28224511:1379330808'
     },
-    // {
-    //   url: 'turn:74.125.247.128:3478?transport=udp',
-    //   credential: 'B/aqi1XSSZFafgUjtwDge2Ibi/E=',
-    //   username: 'CJ7i/f4FEgbIhx2CnPAYqvGggqMKIICjBTAK'
-    // },
-    {url: "turn:ec2-54-176-1-181.us-west-1.compute.amazonaws.com:3478", username:"tadhackuser", credential:"tadhackpw"},
     {
-      urls: 'turn:numb.viagenie.ca',
-      credential: '123456789',
-      username: 'babigeh909@boersy.com',
+      url: 'turn:74.125.247.128:3478?transport=udp',
+      credential: 'B/aqi1XSSZFafgUjtwDge2Ibi/E=',
+      username: 'CJ7i/f4FEgbIhx2CnPAYqvGggqMKIICjBTAK'
     },
+    // {url: "turn:ec2-54-176-1-181.us-west-1.compute.amazonaws.com:3478", username:"tadhackuser", credential:"tadhackpw"},
+    // {
+    //   urls: 'turn:numb.viagenie.ca',
+    //   credential: '123456789',
+    //   username: 'babigeh909@boersy.com',
+    // },
     
 {
     url: 'turn:192.158.29.39:3478?transport=udp',
@@ -80,16 +80,16 @@ const iceServers = {
   username: 'YzYNCouZM1mhqhmseWk6',
   credential: 'YzYNCouZM1mhqhmseWk6'
   },
-  {
-    url: 'turn:relay.backups.cz',
-    credential: 'webrtc',
-    username: 'webrtc'
-},
-{
-    url: 'turn:relay.backups.cz?transport=tcp',
-    credential: 'webrtc',
-    username: 'webrtc'
-},
+//   {
+//     url: 'turn:relay.backups.cz',
+//     credential: 'webrtc',
+//     username: 'webrtc'
+// },
+// {
+//     url: 'turn:relay.backups.cz?transport=tcp',
+//     credential: 'webrtc',
+//     username: 'webrtc'
+// },
   ],
 }
 
