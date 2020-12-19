@@ -2,7 +2,7 @@
 const roomSelectionContainer = document.getElementById('room-selection-container')
 const roomInput = document.getElementById('room-input')
 const connectButton = document.getElementById('connect-button')
-const createButton = document.getElementById('creaate-room')
+const createButton = document.getElementById('create-room')
 
 
 const videoChatContainer = document.getElementById('video-chat-container')
