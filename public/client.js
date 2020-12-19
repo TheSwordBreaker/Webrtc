@@ -67,7 +67,17 @@ const iceServers = {
   urls: "turn:13.250.13.83:3478?transport=tcp"  ,
   username: 'YzYNCouZM1mhqhmseWk6',
   credential: 'YzYNCouZM1mhqhmseWk6'
-  }
+  },
+  {
+    url: 'turn:relay.backups.cz',
+    credential: 'webrtc',
+    username: 'webrtc'
+},
+{
+    url: 'turn:relay.backups.cz?transport=tcp',
+    credential: 'webrtc',
+    username: 'webrtc'
+},
   ],
 }
 
