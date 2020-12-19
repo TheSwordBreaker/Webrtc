@@ -42,6 +42,7 @@ const iceServers = {
       credential: 'B/aqi1XSSZFafgUjtwDge2Ibi/E=',
       username: 'CJ7i/f4FEgbIhx2CnPAYqvGggqMKIICjBTAK'
     },
+    {url: "turn:ec2-54-176-1-181.us-west-1.compute.amazonaws.com:3478", username:"tadhackuser", credential:"tadhackpw"},
     {
       urls: 'numb.viagenie.ca',
       credential: '123456789',
