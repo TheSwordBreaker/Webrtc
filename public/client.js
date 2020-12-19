@@ -42,6 +42,11 @@ const iceServers = {
       credential: 'B/aqi1XSSZFafgUjtwDge2Ibi/E=',
       username: 'CJ7i/f4FEgbIhx2CnPAYqvGggqMKIICjBTAK'
     },
+    {
+      urls: 'numb.viagenie.ca',
+      credential: '123456789',
+      username: 'babigeh909@boersy.com',
+    }
     
 {
     url: 'turn:192.158.29.39:3478?transport=udp',
