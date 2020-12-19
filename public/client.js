@@ -37,6 +37,11 @@ const iceServers = {
       credential: 'JZEOEt2V3Qb0y27GRntt2u2PAYA=',
       username: '28224511:1379330808'
     },
+    {
+      url: 'turn:74.125.247.128:3478?transport=udp',
+      credential: 'B/aqi1XSSZFafgUjtwDge2Ibi/E=',
+      username: 'CJ7i/f4FEgbIhx2CnPAYqvGggqMKIICjBTAK'
+    },
     
 {
     url: 'turn:192.158.29.39:3478?transport=udp',
