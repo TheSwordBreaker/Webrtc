@@ -56,7 +56,18 @@ const iceServers = {
     url: 'turn:turn.anyfirewall.com:443?transport=tcp',
     credential: 'webrtc',
     username: 'webrtc'
-}
+},
+{
+  urls: "turn:13.250.13.83:3478?transport=udp"  ,
+  username: YzYNCouZM1mhqhmseWk6,
+  credential: YzYNCouZM1mhqhmseWk6
+  }
+,
+{
+  urls: "turn:13.250.13.83:3478?transport=tcp"  ,
+  username: YzYNCouZM1mhqhmseWk6,
+  credential: YzYNCouZM1mhqhmseWk6
+  }
   ],
 }
 
