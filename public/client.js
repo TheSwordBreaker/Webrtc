@@ -44,10 +44,10 @@ const iceServers = {
     },
     {url: "turn:ec2-54-176-1-181.us-west-1.compute.amazonaws.com:3478", username:"tadhackuser", credential:"tadhackpw"},
     {
-      urls: 'numb.viagenie.ca',
+      urls: 'turn:numb.viagenie.ca',
       credential: '123456789',
       username: 'babigeh909@boersy.com',
-    }
+    },
     
 {
     url: 'turn:192.158.29.39:3478?transport=udp',
