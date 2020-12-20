@@ -33,7 +33,12 @@ const iceServers = {
     { urls: 'stun:stun4.l.google.com:19302' },
     { urls: 'stun:74.125.247.128:3478' },
     {
-      url: 'turn:uturn.theswordbreaker.repl.co',
+      urls: 'turn:uturn.theswordbreaker.repl.co',
+      username: 'username',
+      credential: 'password'
+    },
+    {
+      urls: 'turn:uturn.theswordbreaker.repl.co:80',
       username: 'username',
       credential: 'password'
     },
