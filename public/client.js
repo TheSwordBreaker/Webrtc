@@ -14,7 +14,7 @@ const remoteVideoComponent = document.getElementById('remote-video')
 // Variables.
 const socket = io()
 const mediaConstraints = {
-  // audio: true,
+  audio: true,
   video: { width: 1280, height: 720 },
 }
 let localStream
