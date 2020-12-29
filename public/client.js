@@ -177,7 +177,6 @@ socket.on('start_call', async () => {
     rtcPeerConnection.onicecandidate = sendIceCandidate
     await createOffer(rtcPeerConnection)
   }
-
 })
 
 socket.on('webrtc_offer', async (event) => {
@@ -250,6 +249,8 @@ async function createAnswer(rtcPeerConnection) {
 }
 
 function setRemoteStream(event) {
+
+  console.log('Stream received')
   remoteVideoComponent.srcObject = event.streams[0]
   remoteStream = event.stream
 }
