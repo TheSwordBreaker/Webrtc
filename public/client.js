@@ -158,6 +158,7 @@ async function setLocalStream(mediaConstraints) {
   let stream
   try {
     stream = await navigator.mediaDevices.getUserMedia(mediaConstraints)
+    console.log(stream)
   } catch (error) {
     console.error('Could not get user media', error)
   }
@@ -212,6 +213,7 @@ socket.on('webrtc_ice_candidate', (event) => {
 // FUNCTIONS ==================================================================
 function addLocalTracks(rtcPeerConnection) {
   localStream.getTracks().forEach((track) => {
+    console.log(track,localStream)
     rtcPeerConnection.addTrack(track, localStream)
   })
 }
